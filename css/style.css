@@ -1,0 +1,326 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.label_black{
+    padding: 4px 12px;
+    text-align: center;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.label_white{
+    margin: 0 auto;
+    padding: 5px 12px;
+    text-align: center;
+    width: 112px;
+    height: 24px;
+    background-color: white;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: black
+}
+.container {
+    width: 1140px;
+}
+header {
+    position: relative;
+    height: 50px; 
+    background-color: #212121; 
+}
+nav {
+    position: fixed; 
+    height: 50px;
+    background-color: #212121; 
+    width: 1140px;
+}
+.menu {
+    padding: 13px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.menu_items {
+    border-right: dotted black;
+    padding-right: 30px;
+}
+.subheader {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    height: 84px;
+    opacity: 0.6;
+    background-color: #000000;
+}
+.uber_logo {
+    display: block;
+    margin-top: 16px;
+}
+.logo_text {
+    margin-top: 6px;
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 100;
+    color: #ffffff;
+}
+.subheader_call a {
+    display: block;
+    text-align: right;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.call_text {
+    display: block;
+    text-align: right;
+    margin-top: 16px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.subheader button {
+    margin-top: 16px;
+    width: 178px;
+    height: 52px;
+    background-image: linear-gradient(0.0deg, $main-color 0%, #4ce2ff 100%);
+    border-radius: 4px;
+    box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.11);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+.promo {
+    height: 799px;
+    padding-top: 150px;
+    background:url(../img/bg/bg_top.jpg) center center/cover no-repeat;
+}
+.promo_title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.promo_subtitle {
+    line-height: 20px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+}
+.promo_text {
+    margin-top: 23px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.promo button {
+    display: block;
+    margin-top: 135px;
+    margin-left: 400px;
+    width: 178px;
+    height: 52px;
+    background-image: linear-gradient(0.0deg, $main-color 0%, #4ce2ff 100%);
+    border-radius: 4px;
+    box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.11);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+.reasons {
+    min-height: 800px;
+    padding-top: 71px;
+
+}
+.benefits {
+    display: block;
+    margin-top: 71px;
+    margin-left: 516px;
+    text-align: center;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 23px;
+}
+.reasons_title {
+    margin: 38px 200px 40px 200px;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+}
+.reason_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 113px;
+    height: 113px;
+    background-color: $main-color;
+    border-radius: 100%;
+}
+.reason_icon img {
+    width: 80px;
+    height: 66px;
+    background-color: $main-color;
+}
+.reason_item_text {
+    margin-left: 26px;
+    line-height: 20px;
+    width: 341px;
+    height: 141px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #202020;
+}
+.reason_item_text span {
+    font-size: 17px;
+    font-weight: 400;
+    color: $main-color;   
+}
+.reason_item {
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+.mobile {
+    min-height: 864px;
+    padding-top: 48px;
+    padding-bottom: 79px
+}
+
+.mobile_title {
+    margin-top: 38px;
+    margin-left: 265px;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222
+}
+
+.mobile_title_low {
+    margin-left: 172px;
+    margin-bottom: 32px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #222222
+}
+
+.mobile_item {
+    width: 320px;
+    height: 280px;
+    margin: 0 auto;
+    margin-bottom: 19px
+}
+
+.mobile_item_1 {
+    background: url(../img/mobile_uber/mobile_1.jpg) center center/cover no-repeat
+}
+
+.mobile_item_2 {
+    background: url(../img/mobile_uber/mobile_1.jpg) center center/cover no-repeat
+}
+
+.mobile_item_3 {
+    background: url(../img/mobile_uber/mobile_3.jpg) center center/cover no-repeat
+}
+
+.mobile_item_4 {
+    background: url(../img/mobile_uber/mobile_4.jpg) center center/cover no-repeat
+}
+
+.mobile_item_5 {
+    background: url(../img/mobile_uber/mobile_5.jpg) center center/cover no-repeat
+}
+
+.mobile_item_6 {
+    background: url(../img/mobile_uber/mobile_6.jpg) center center/cover no-repeat
+}
+
+.mobile_item_text {
+    display: block;
+    margin-top: 91px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff
+}
+
+.plus {
+    margin-top: 110px;
+    margin-left: 147px;
+    width: 26px;
+    height: 26px;
+    background-color: #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 100%
+}
+
+.plus img {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center
+}
+
+
+
+
+.uber_car {
+    min-height: 896px;
+    background: url(../img/bg/bg_uber_car.jpg) center center/cover no-repeat;
+    padding-top: 51px;
+}
+.uber_title {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.uber_subtitle {
+    margin-top: 19px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+  
